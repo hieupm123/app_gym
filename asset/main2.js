@@ -96,5 +96,5 @@ get_data(function(data){
 })
 
 document.getElementById("huy3").addEventListener("click",function(){
-    window.location.replace("home.html");
+    window.location.replace("/home.html");
 })

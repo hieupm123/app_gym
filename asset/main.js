@@ -32,13 +32,15 @@ document.getElementById('form_page2').addEventListener('submit', function(evt){
             tien : parseInt(a[2])*300000
         }
         post_data(data);
-        window.location.replace("home.html");
+        // setTimeout(() => {
+            window.location.replace("/home.html");
+        // }, 1000);
     }
 })
 
 document.getElementById("huy2").addEventListener('click',function(){
     if (confirm("Bạn có muốn hủy?") == true) {
-        window.location.replace("home.html");
+        window.location.replace("/home.html");
     }
 })
 
