@@ -33,14 +33,14 @@ document.getElementById('form_page2').addEventListener('submit', function(evt){
         }
         post_data(data);
         // setTimeout(() => {
-            window.location.replace("/index.html");
+            window.location.replace("/public/index.html");
         // }, 1000);
     }
 })
 
 document.getElementById("huy2").addEventListener('click',function(){
     if (confirm("Bạn có muốn hủy?") == true) {
-        window.location.replace("/index.html");
+        window.location.replace("/public/index.html");
     }
 })
 
